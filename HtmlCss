@@ -1,0 +1,64 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<div class="container">    
+<div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
+<div class="panel panel-info" >
+<div style="float:left; position: relative; top:15px;right:-10px">
+<i class="fa fa-graduation-cap" style="font-size:25px;"></i>
+</div>
+<div class="panel-heading">
+<div class="panel-title"><center><b>Sign In</b></center></div>
+<div style="float:right; position: relative; top:-25px">
+<i class="fa fa-close" style="font-size:25px;"></i>
+</div>
+</div>     
+<div style="padding-top:30px" class="panel-body" >
+<div style="display:none" id="login-alert" class="alert alert-danger col-sm-12">
+</div>
+<form id="loginform" class="form-horizontal" role="form">
+<div style="margin-bottom: 25px" class="input-group">
+<input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email"> 
+<span class="input-group-addon"><i class="fa fa-envelope"></i>
+</span>
+</div>
+<div style="margin-bottom: 25px" class="input-group">
+<input id="login-password" type="password" class="form-control" name="password" placeholder="password">
+<span class="input-group-addon"><i class="fa fa-unlock-alt"></i>
+</span>
+</div>
+<div style="margin-top:10px" class="form-group">
+<div class="col-sm-12 controls"><center>
+<a id="btn-login" href="#" class="btn btn-info"><center>sign into EPAM webinar</center></a>
+</center></div>
+<div style="padding:15px; font-size:85% right=30%" > 
+<a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">forgot your password?</a>
+<div style="float:right; position: relative; top:-5px">
+<a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">Register!</a>
+</div>
+</div>
+</div>
+<div class="form-group">
+<div class="col-md-12 control">
+<div style="border-top: 1px solid#888; padding-top:15px; font-size:85%">
+<center>
+<a id="btn-login" href="#" class="btn btn-primary"><center>connect with <i class="fa fa-facebook" style="font-size:25px;"></i>
+</center></a>
+</center>
+&nbsp;&nbsp;
+<center>
+<a id="btn-login" href="#" class="btn btn-danger"><center>connect with <i class="fa fa-google" style="font-size:25px;"></i>
+</center></a>
+</center>
+&nbsp;&nbsp;
+<center>
+<a id="btn-login" href="#" class="btn btn-warning"><center>&lt;EPAM LOGIN&gt;</center></a>
+</center>
+</div>
+</div>
+</div>    
+</form>     
+</div>                     
+</div>  
+</div>
